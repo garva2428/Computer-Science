@@ -1,0 +1,9 @@
+no_1 = input('Enter a number: ')
+no_1 = int(no_1)
+no_2= input('Enter another number: ')
+no_2 = int(no_2)
+add = no_1 + no_2
+no_3 = input('Enter another number: ')
+no_3 = int(no_3)
+total_1= add*no_3
+print('Total= ',total_1)
