@@ -1,0 +1,22 @@
+#Author Garva Ahuja
+#Date 4th September 2025
+#Programme  Write a program to display the total water bill charges for a month given the
+#number of units consumed. Your calculation should be based on the following
+#rates:
+#• 5 cent a unit for the first 100 units
+#• 10 cent a unit for the next 150 units
+#• 20 cent a unit for any over 250
+
+
+
+units=int(input('How many units of water did use in the month? '))
+
+
+if 100<units<=250:
+    print('Your bill charge for the month is',(100*5+(units-100)*10)/100,'euros')
+elif units>250:
+    print('Your bill charge for the month is',(100*5+150*10+(units-250)*20)/100,'euros')
+else:
+    print('Your bill charge for the month is',(units*5)/100,'euros')
+    
+          
