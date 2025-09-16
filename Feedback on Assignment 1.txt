@@ -1,0 +1,28 @@
+Q1-3 werent found on the github.
+
+----------------------------------------
+Q4 Q5 Q7 and Q8 worked well just be careful wrapping input in int.
+
+----------------------------------------
+Q6 your variable for when the person enter their name is name_2  however,
+in the print statement you have it as name. 
+
+----------------------------------------
+Q9 you have wrapped the kg input in int which means a user cant enter their full
+weight if it has a decimal.
+
+----------------------------------------
+Activity in the book
+Q6 well done however you can use a double * to make an exponent. (3.14*radius**2)
+
+----------------------------------------
+Q7 works well but only if the person inputs a whole number result. If they enter
+a decimal it doesnt work because the input is wrapped in int.
+
+----------------------------------------
+Q8 Q9 Q10 Well done
+
+----------------------------------------
+Q10 Well done however if someone was paying the loan over 1 and a half years 
+it wont work same for if they had a principle that was a decimal.
+
