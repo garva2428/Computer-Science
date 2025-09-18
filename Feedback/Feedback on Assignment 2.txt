@@ -1,0 +1,22 @@
+Well done on Q1 Q2 Q4 Q7 Q8 Q9 Q10
+
+------------------------
+Q3 you ask the user to enter a number thats under but dont say what number it should be under.
+
+------------------------
+Q5 You can use the or function in an if statement for all the different reds instead of all the elif statement e.g.
+if c == 'red' or c == 'RED'
+
+-------------------------
+Q6 A few small mistakes here. Each time you check an option, you need to compare it to the variable, e.g.
+if rain == 'yes' or rain == 'Yes'. Also, using elif on the same indent as the rain if means that once the first 
+if is satisfied, the rest won’t be checked. To make the programme ask the user about wind after they answer yes to rain, 
+the wind if statement should be inside the rain if statement.
+e.g. 
+if rain == 'yes' or rain == 'Yes':
+    windy = input('Is it windy? ')
+    if windy == 'yes' or windy == 'Yes':
+        print('It is too windy for an umbrella')
+    else:
+        print('Take an umbrella')
+        
