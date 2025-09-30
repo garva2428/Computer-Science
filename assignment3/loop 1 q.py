@@ -7,3 +7,4 @@ name=input('What is your name? ')
 for s in range(3):
     print(name)
 
+
