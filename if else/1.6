@@ -5,14 +5,11 @@
 
 rain=input('Is it raining? ')
 
-if rain=='yes'or'Yes':
-    wind=input('Is it windy? ')
-elif wind=='yes'or'Yes':
-    print('It is too windy for an umbrella')
-elif wind!='yes'or'Yes':
-    print('Take an umbrella')
-    
-else:
-    print('Enjoy your day')
+if rain == 'yes' or rain == 'Yes':
+    windy = input('Is it windy? ')
+    if windy == 'yes' or windy == 'Yes':
+        print('It is too windy for an umbrella')
+    else:
+        print('Take an umbrella')
 
 
