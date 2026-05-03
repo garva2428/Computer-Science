@@ -1,0 +1,1 @@
+Your code doesn't work if the input is not lower case

@@ -1,0 +1,1 @@
+Your code is good but you the flights are meant to be inputed not hardcoded at the start
